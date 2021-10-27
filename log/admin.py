@@ -1,3 +1,10 @@
 from django.contrib import admin
 
-# Register your models here.
+
+
+from .models import *
+
+# Registrace modelů v administraci aplikace
+
+admin.site.register(Workout)
+admin.site.register(WorkoutType)
